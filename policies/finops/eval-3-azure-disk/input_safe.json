@@ -1,0 +1,22 @@
+{
+  "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-prod/providers/Microsoft.Compute/disks/disk-vm-os-001",
+  "name": "disk-vm-os-001",
+  "type": "Microsoft.Compute/disks",
+  "location": "eastus",
+  "sku": {
+    "name": "Premium_LRS",
+    "tier": "Premium"
+  },
+  "properties": {
+    "diskState": "Attached",
+    "diskSizeGB": 128,
+    "diskIOPSReadWrite": 500,
+    "diskMBpsReadWrite": 100,
+    "creationData": {
+      "createOption": "FromImage"
+    },
+    "provisioningState": "Succeeded",
+    "timeCreated": "2025-09-15T08:30:00.000Z",
+    "managedBy": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web-001"
+  }
+}

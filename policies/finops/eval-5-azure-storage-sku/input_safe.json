@@ -1,0 +1,24 @@
+{
+  "id": "/subscriptions/aaaabbbb-1234-5678-9abc-def012345678/resourceGroups/prod-rg/providers/Microsoft.Storage/storageAccounts/prodstorageaccount",
+  "name": "prodstorageaccount",
+  "type": "Microsoft.Storage/storageAccounts",
+  "location": "eastus",
+  "sku": {
+    "name": "Standard_GRS",
+    "tier": "Standard"
+  },
+  "kind": "StorageV2",
+  "tags": {
+    "Environment": "production",
+    "CostCenter": "engineering",
+    "Owner": "platform-team"
+  },
+  "properties": {
+    "primaryLocation": "eastus",
+    "statusOfPrimary": "available",
+    "secondaryLocation": "westus",
+    "statusOfSecondary": "available",
+    "supportsHttpsTrafficOnly": true,
+    "accessTier": "Hot"
+  }
+}

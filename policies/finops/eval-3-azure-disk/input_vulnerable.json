@@ -1,0 +1,21 @@
+{
+  "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-prod/providers/Microsoft.Compute/disks/disk-orphaned-001",
+  "name": "disk-orphaned-001",
+  "type": "Microsoft.Compute/disks",
+  "location": "eastus",
+  "sku": {
+    "name": "Premium_LRS",
+    "tier": "Premium"
+  },
+  "properties": {
+    "diskState": "Unattached",
+    "diskSizeGB": 128,
+    "diskIOPSReadWrite": 500,
+    "diskMBpsReadWrite": 100,
+    "creationData": {
+      "createOption": "Empty"
+    },
+    "provisioningState": "Succeeded",
+    "timeCreated": "2025-11-01T10:00:00.000Z"
+  }
+}

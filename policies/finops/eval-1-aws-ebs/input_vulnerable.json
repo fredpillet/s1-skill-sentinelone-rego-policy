@@ -1,0 +1,19 @@
+{
+  "VolumeId": "vol-0a1b2c3d4e5f67890",
+  "State": "available",
+  "Size": 100,
+  "VolumeType": "gp3",
+  "AvailabilityZone": "us-east-1a",
+  "Encrypted": true,
+  "KmsKeyId": "arn:aws:kms:us-east-1:123456789012:key/mrk-abc123",
+  "CreateTime": "2024-11-01T08:30:00.000Z",
+  "Attachments": [],
+  "Tags": [
+    {"Key": "Name", "Value": "orphaned-data-vol"},
+    {"Key": "Environment", "Value": "production"}
+  ],
+  "Iops": 3000,
+  "Throughput": 125,
+  "MultiAttachEnabled": false,
+  "SnapshotId": ""
+}

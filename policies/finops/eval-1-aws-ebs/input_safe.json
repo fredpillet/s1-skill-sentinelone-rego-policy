@@ -1,0 +1,28 @@
+{
+  "VolumeId": "vol-0f9e8d7c6b5a43210",
+  "State": "in-use",
+  "Size": 50,
+  "VolumeType": "gp3",
+  "AvailabilityZone": "us-east-1b",
+  "Encrypted": true,
+  "KmsKeyId": "arn:aws:kms:us-east-1:123456789012:key/mrk-def456",
+  "CreateTime": "2024-09-15T14:00:00.000Z",
+  "Attachments": [
+    {
+      "VolumeId": "vol-0f9e8d7c6b5a43210",
+      "InstanceId": "i-0123456789abcdef0",
+      "Device": "/dev/xvda",
+      "State": "attached",
+      "AttachTime": "2024-09-15T14:05:00.000Z",
+      "DeleteOnTermination": true
+    }
+  ],
+  "Tags": [
+    {"Key": "Name", "Value": "web-server-root"},
+    {"Key": "Environment", "Value": "production"}
+  ],
+  "Iops": 3000,
+  "Throughput": 125,
+  "MultiAttachEnabled": false,
+  "SnapshotId": "snap-0aabbccddeeff0011"
+}

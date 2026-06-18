@@ -1,0 +1,18 @@
+{
+  "AllocationId": "eipalloc-0f9e8d7c6b5a43210",
+  "AssociationId": "eipassoc-0a1b2c3d4e5f67890",
+  "PublicIp": "18.234.56.78",
+  "Domain": "vpc",
+  "InstanceId": "i-0abcdef1234567890",
+  "NetworkInterfaceId": "eni-0123456789abcdef0",
+  "NetworkInterfaceOwnerId": "123456789012",
+  "PrivateIpAddress": "10.0.1.42",
+  "NetworkBorderGroup": "us-east-1",
+  "PublicIpv4Pool": "amazon",
+  "Tags": [
+    {
+      "Key": "Name",
+      "Value": "prod-web-eip"
+    }
+  ]
+}

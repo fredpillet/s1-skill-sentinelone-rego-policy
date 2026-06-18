@@ -1,0 +1,11 @@
+{
+  "kind": "compute#disk",
+  "id": "4821093475629384201",
+  "name": "data-disk-orphaned",
+  "sizeGb": "200",
+  "zone": "https://www.googleapis.com/compute/v1/projects/my-project/zones/us-central1-a",
+  "type": "https://www.googleapis.com/compute/v1/projects/my-project/zones/us-central1-a/diskTypes/pd-ssd",
+  "status": "READY",
+  "selfLink": "https://www.googleapis.com/compute/v1/projects/my-project/zones/us-central1-a/disks/data-disk-orphaned",
+  "users": []
+}
